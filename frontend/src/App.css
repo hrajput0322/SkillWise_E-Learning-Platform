@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  overflow-x: hidden;
+  background-color: #212529;
+  color: white;
+}
+
+.card-hover {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+}
