@@ -37,7 +37,6 @@ const TeacherAddCourse = ({isTeacherLoggedIn}) => {
     }
 
     try {
-      // Upload image to Firebase storage
       const storage = getStorage(app);
       const storageRef = ref(storage, "images/" + image.name);
       await uploadBytes(storageRef, image);
